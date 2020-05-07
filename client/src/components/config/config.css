@@ -1,0 +1,52 @@
+.row-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+}
+
+.menu {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.config-control {
+  margin: 5px;
+}
+
+.modal-container {
+  margin-top: 50px;
+}
+
+.modal-card {
+  max-height: 500px;
+}
+
+.room-title {
+  margin-top: 5px;
+}
+
+.sensor-icon {
+  width: 40px;
+  height: auto;
+}
+
+.id-card-label {
+  margin: 1px;
+  font-size: 14px;
+  line-height: 14px;
+}
+/*# sourceMappingURL=config.css.map */

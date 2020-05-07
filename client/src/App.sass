@@ -1,0 +1,70 @@
+@charset "utf-8"
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700')
+
+// Brand colors
+$purple: #8a4d76
+$pink: #fa7c91
+$brown: #757763
+$beige-light: #d0d1cd
+$beige-lighter: #eff0eb
+
+$blupoint-dark-blue: #142650
+$blupoint-blue: #3660BF
+$blupoint-button-hover-blue: #345bb3
+$blupoint-light-blue: #03bafc
+$white: #FFFFFF
+$black: #000000
+
+// Update Bulma's global variables
+$family-sans-serif: 'Nunito', sans-serif
+$grey-dark: $brown
+$grey-light: $beige-light
+$primary: $blupoint-blue
+$link: $blupoint-light-blue
+
+$widescreen-enabled: false
+$fullhd-enabled: false
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter
+$control-border-width: 2px
+$input-border-color: transparent
+$input-shadow: none
+
+// Import only what you need from Bulma
+@import '../node_modules/bulma/sass/utilities/_all.sass'
+@import '../node_modules/bulma/sass/base/_all.sass'
+//@import '../node_modules/bulma/sass/elements/button.sass'
+//@import '../node_modules/bulma/sass/elements/container.sass'
+//@import '../node_modules/bulma/sass/elements/form.sass'
+//@import '../node_modules/bulma/sass/elements/title.sass'
+//@import '../node_modules/bulma/sass/components/navbar.sass'
+//@import '../node_modules/bulma/sass/layout/section.sass'
+@import '../node_modules/bulma/sass/grid/_all.sass'
+@import '../node_modules/bulma/sass/layout/_all.sass'
+@import '../node_modules/bulma/sass/components/_all.sass'
+@import '../node_modules/bulma/sass/elements/_all.sass'
+@import '../node_modules/bulma/sass/form/_all.sass'
+
+.lt-button
+    background-color: $blupoint-blue
+    color: $white
+    border: none
+
+.button:hover
+    color: $white
+    background-color: $blupoint-button-hover-blue
+
+.navbar
+    background-color: $blupoint-blue
+
+.navbar-item
+    color: $white
+
+.html
+    height: 100%
+    min-height: 100vh
+    full-height: 100%
+    background-color: $black
